@@ -3,7 +3,878 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/share.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css" />
+		
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/share.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/detail.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
+		<div class="maxHeadw">
+			<div class="maxHead">
+				<div class="maxWelcom">
+					<span id="loginBar_684" style="display: block;" class="fl">
+						<span class="fl">
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">
+									您好，欢迎来到嗨购网！
+								</font>
+							</font>
+						</span>
+						<a href="/login.html" class="fl">
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">登录</font>
+							</font>
+						</a>
+						<span class="dividing fl"></span>
+						<a href="/regist.html" class="fl">
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">注册</font>
+							</font>
+						</a>
+					</span>
+
+					<span id="memberBar_684" style="display:none" class="fl">
+						<span class="fl">
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">
+									您好</font>
+							</font><span id="uname_684"></span>！
+						</span>
+						<a href="404.html" class="fl">退出</a>
+					</span>
+
+				</div>
+				<div class="maxHeadr" style="height:27px;">
+					<div class="maxSubMenu">
+						<a style="text-align: center;" href="#" class=" item-1">
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">客户服务</font>
+							</font>
+						</a> <a style="text-align: center;" href="#" class=" item-2">
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">关注嗨购</font>
+							</font>
+						</a>
+
+					</div>
+					<div class="maxSubMenu">
+						<div class="cart-icon">&nbsp;</div><a href="/cart.html" style="padding:0px;">
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">购物车</font>
+							</font><span class="op-cart-number">
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">0</font>
+								</font>
+							</span>
+							<font style="vertical-align: inherit;">
+								<font style="vertical-align: inherit;">件</font>
+							</font>
+						</a>
+
+					</div>
+					<div class="maxService clearfix">
+						<dl class="shopmax-keys"><dt class="maxTitle"> <a href="/cart.html">
+									<font style="vertical-align: inherit;">
+										<font style="vertical-align: inherit;"> 我的账户</font>
+									</font>
+								</a> </dt>
+							<dd> <a style="text-align: center;" href="/cart.html" class=" item-1" target="_blank">我的订单</a>
+								<a style="text-align: center;" href="/cart.html" class=" item-2" target="_blank">我的优惠券</a>
+								<a style="text-align: center;" href="/cart.html" class=" item-3" target="_blank">我的积分</a>
+								<a style="text-align: center;" href="/cart.html" class=" item-4" target="_blank">我的收藏</a> </dd>
+						</dl>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="maxTopw">
+			<div class="maxTop">
+				<div class="maxLogo">
+					<a href="./"><img alt="嗨购网" src="../img/login/8f2752ea0269c4eb95e3ec66d3944d0e833646f8.jpg" border="0"></a> </div>
+				<div class="maxSearchbox">
+					<div class="maxSearch">
+						<form action="/search-result.html" method="post" class="SearchBar  searchBar_680">
+							<input type="text" name="search_keywords" value="" autocompleter="associate_autocomplete_goods:name,goods_id"
+							 ac_options="{}" class="inputstyle keywords" x-webkit-speech="">
+							<input type="submit" value="搜索" class="btn_search" onfocus="this.blur();">
+						</form>
+					</div>
+
+					<div class="maxKey"> <a href="/list.html" target="_blank">爽肤水</a>&nbsp;|&nbsp; <a href="/list.html" target="_blank">面霜</a>&nbsp;|&nbsp;
+						<a href="/list.html" target="_blank">洗面奶</a>&nbsp;|&nbsp; <a href="/list.html" target="_blank">香氛</a>&nbsp;|&nbsp;
+						<a href="/list.html" target="_blank">眼霜</a>&nbsp;|&nbsp; <a href="/list.html" target="_blank">唇膏</a>&nbsp;|&nbsp;
+						<a href="/list.html" target="_blank">护肤套装</a> </div>
+
+				</div>
+				<div class="maxTop-right">
+					<div class="maxCart">
+						<a target="_blank" href="/cart.html" class="menu-hd cart-container2">去购物车结算</a> </div>
+				</div>
+			</div>
+		</div>
+		<div class="maxMenuw" style="overflow: visible;">
+			<div class="maxMenubox" style="overflow: visible;">
+				<div id="maxDropbox" style="overflow: visible;" class="">
+					<div class="maxTitle">
+						<div class="AdvBanner">
+							<s class="cat-icon"></s>
+
+							<span style="font-size:14px;">全部商品分类</span>
+
+
+						</div>
+					</div>
+				</div>
+
+				<div class="maxMenu">
+
+					<ul class="MenuList MenuList_678 clearfix">
+						<li><a href="/index.html">首页</a></li>
+						<li><a href="/list.html" target="_blank">大牌小样</a></li>
+						<li><a href="/list.html" target="_blank">今日抢购</a></li>
+						<li><a href="/list.html">品牌区</a></li>
+						<li><a href="/index.html" target="_blank">消费者告知</a></li>
+					</ul>
+					<div id="ex_slide_679" class="ex-slide1">
+
+
+
+						<ol class="switchable-content clearfix">
+						</ol>
+
+						<ul class="switchable-triggerBox slide-trigger">
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="maxPath">
+			<dl class="basic-ex-breadcrumbs clearfix">
+				<dd>
+					您当前的位置：
+					<a class="beb-nav bed1" href="/list.html">
+						<span>食品</span>
+					</a>
+					<span class="beb-raquo">&gt;</span>
+					<a class="beb-nav bed2" href="/list.html">
+						<span>零食</span>
+					</a>
+					<span class="beb-raquo">&gt;</span>
+					<a class="beb-nav bed3" href="/list.html">
+						<span>三只松鼠</span>
+					</a>
+					<span class="beb-raquo">&gt;</span>
+					<span class="beb-current bed4">LOR/欧莱雅 复颜密集抗皱紧致滋润日霜50ml SPF23</span>
+				</dd>
+			</dl>
+		</div>
+		<div class="maxwIn">
+			<div id="main" class="clearfix">
+				<!-- 商品详情 -->
+				<div class="page-maincontent">
+					
+					<div id="product_container" class="product-container clearfix" style="margin-bottom:50px">
+						<!-- custom s -->
+						<!-- style="margin-bottom:50px" -->
+						<!-- custom e -->
+						<!-- 标题简介 -->
+						<!-- <div class="product-titles">
+  <h2>
+    LOR/欧莱雅 复颜密集抗皱紧致滋润日霜50ml SPF23  </h2>
+  <p>创新DERMALIFT基层提拉素科技，促进多种天然提拉因素，帮助眼周肌肤由内而外重回丰盈，恢复紧致。</p></div> -->
+						<form action="/cart-add-goods.html" method="post" target="_dialog_minicart">
+							<input type="hidden" name="prepare_type" value="">
+							<input type="hidden" name="btype">
+							<input type="hidden" name="goods[goods_id]" value="1896">
+							<input type="hidden" name="goods[product_id]" value="4618">
+							<div class="product-side" style="width:402px;">
+								<!-- 商品相册 -->
+								<div id="product_album" class="product-album">
+									<div class="product-album-preview clearfix">
+										
+										<div class="product-album-pic" style="width:400px;height:400px;line-height:398px;*font-size:360px;">
+
+											<a href="../img/detail/83b9354788f131f8d0e76b246ecd54a148dcdd67.jpg"
+											 class="album-preview-container" id="op_product_zoom"><img src="../img/detail/20541dc9ab090bc5e6bc1535cec180bb122c8a04.jpg"
+												 alt="" class="small-pic" ></a>
+										</div>
+
+
+										<img class="loading" app="b2c" src="../img/detail/loading.gif" alt="正在加载大图..."
+										 style="display:none;">
+										<div class="product-album-zoom"><a href="/product-albums-1896.html" title="点击查看大图" target="_blank" class="icon"></a></div>
+										<div class="loading" style="visibility: hidden;"><img alt="loading..." src="../img/detail/loading.gif">
+											正在加载大图...</div>
+									</div>
+									<div class="product-album-thumb product-album-thumb-bottom">
+										<div class="flip prev forward over"><a href="javascript:void(0);" class="icon"><</a></div>
+										<div class="thumbnail-list" style="width:368px;">
+											<ul class="clearfix" style="width: 72px;">
+												<li class="active">
+													<div class="arrow arrow-top"><i class="below"></i></div>
+													<div class="thumbnail"><a href="../img/detail/83b9354788f131f8d0e76b246ecd54a148dcdd67.jpg"
+														 rel="op_product_zoom" rev="../img/detail/20541dc9ab090bc5e6bc1535cec180bb122c8a04.jpg"><img
+															 src="../img/detail/3bab448443d8523fa90093785b5fa605836ffae9.jpg"
+															 alt="" class="smallpic" width="60" height="60"></a></div>
+												</li>
+											</ul>
+										</div>
+										<div class="flip next backward over"><a href="javascript:void(0);" class="icon">></a></div>
+									</div>
+								</div>
+								<!-- 分享推荐收藏 -->
+
+
+							</div>
+							<div class="product-main clearfix" style="margin-left:420px;">
+								<!-- 标题简介 -->
+								<div class="product-titles">
+									<h2>
+
+										<!-- LOR/欧莱雅 复颜密集抗皱紧致滋润日霜50ml SPF23 -->
+										LOR/欧莱雅 复颜密集抗皱紧致滋润日霜50ml SPF23
+									</h2>
+
+									<p>创新DERMALIFT基层提拉素科技，促进多种天然提拉因素，帮助眼周肌肤由内而外重回丰盈，恢复紧致。</p>
+								</div>
+								<!-- 商品基本信息 -->
+								<div id="product_information" class="product-information">
+									<!--商品价格 and 商品评分-->
+									<div class="product-concerns">
+										<ul>
+											<li class="item">
+												<span class="label">销售价：</span>
+												<span class="detail">
+													<b class="price"><ins class="action-price">￥119.00</ins></b>
+												</span>
+											</li>
+											<li class="item">
+												<span class="label">市场价：</span>
+												<span class="detail">
+													<i class="minor"><del class="action-mktprice">￥189.00</del></i>
+												</span>
+											</li>
+											<li class="item">
+												<span class="label">会员价：</span>
+												<span class="detail">
+													<i class="minor">最低<span class="action-minprice">￥119.00</span>起</i>
+													<span class="more pop-wrapper">
+														<a href="javascript:void(0);" class="action-handle"><span>更多会员价</span></a>
+														<div class="pop-body action-memberprice" style="display:none;">
+															<ul>
+																<li>注册会员：￥119.00</li>
+															</ul>
+														</div>
+													</span>
+												</span>
+											</li>
+											<li class="item">
+												<span class="label">商品评分：</span>
+												<span class="detail">
+													<em class="stars stars-0">
+														<span class="below"><i class="icon star">/</i><i class="icon star">/</i><i class="icon star">/</i><i
+															 class="icon star">/</i><i class="icon star">/</i></span><span class="above"><i class="icon star">.</i><i
+															 class="icon star">.</i><i class="icon star">.</i><i class="icon star">.</i><i class="icon star">.</i></span>
+													</em>
+												</span>
+											</li>
+										</ul>
+									</div>
+									<!-- 赠品和促销 -->
+									<!--判断是预售商品-->
+
+									<!-- 扩展属性 -->
+
+
+									<!-- 购买区 -->
+									<div class="product-buy">
+										<!-- 商品规格 -->
+										<div class="product-action">
+											<ul>
+												<!--商品库存-->
+												<li class="product-buy-quantity">
+													<label class="item-label" for="for_quantity_input">数量：</label>
+													<span class="item-content"><span class="p-quantity"><a href="javascript:void(0);" class="btn-decrease">-</a><input
+															 type="text" name="goods[num]" class="action-quantity-input" value="1" min="1" max="5"><a href="javascript:void(0);"
+															 class="btn-increase">+</a></span> <span class="p-store hide"></span><input type="hidden" name="stock"
+														 value="5"></span>
+												</li>
+
+												<!--购买按钮-->
+												<li class="product-buy-action">
+													<button  class="btn btn-import btn-huge action-buynow" ><span><span>立即购买</span></span></button>
+													<!--判断是否是预售商品和预售商品的时间判断-->
+													<button  class="btn btn-major btn-huge action-addtocart" ><span><span>加入购物车</span></span></button>
+													<!--<button type="submit" class="btn btn-import btn-huge action-buynow" rel="_request"><span><span>立即购买</span></span></button>-->
+													<button type="button" class="btn btn-caution btn-huge action-notify hide"><span><span>到货通知</span></span></button>
+													<span class="pop-wrapper action-scanbuy" style="position: relative;">
+														<button type="button" class="btn action-handle1 sao">扫一扫购买 </button>
+														<div class="pop-body1 saoma" style="display:none;">
+															<img src="../img/detail/0cd0a109735fe1e74963cf746138ad051141a98d.png"
+															 alt="商品二维码" width="148" height="148">
+														</div>
+													</span>
+												</li>
+												<!--判断是预售商品-->
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+
+						<img src="/detail.html" width="1" border="none" height="1">
+
+
+						<img src="../img/detail/20541dc9ab090bc5e6bc1535cec180bb122c8a04.jpg"
+						 class="album-mid-image">
+					</div>
+					<div id="product_right" style="float:right;border-left:1px solid #f7f7f7;padding-left:9px;width:200px;">
+
+
+						<dl id="goods_shopmax_rank_697" class="goods-shopmax-rank ">
+
+							<dt class="maxTitle clearfix">
+								<h3>热销排行</h3>
+
+							</dt>
+
+
+
+							<dd class="goods-shopmax-rank-body maxContent listbody clearfix">
+							</dd>
+						</dl>
+
+
+						<dl id="goods_shopmax_list_698" class="goods-shopmax-list ">
+
+							<dt class="maxTitle clearfix">
+								<h3>猜你喜欢</h3>
+
+							</dt>
+
+
+
+							<dd class="goods-shopmax-list-body clearfix">
+								<div class="maxContent listbody clearfix">
+								</div>
+							</dd>
+						</dl>
+
+					</div>
+					<!-- 配件套餐 -->
+
+					<div class="product-tags clearfix " style="top: 0px;z-index: 10;"  id="product-tags">
+						<h2 class="tags-hd active" flag="parameter"><a href="javascript:;">
+								<!-- <a href="#parameter"  name="parameter" > -->商品参数</a></h2>
+						<h2 class="tags-hd tag-detail" flag="details"><a href="javascript:;">
+								<!-- <a href="#details" name="details" > -->商品详情</a></h2>
+						<h2 class="tags-hd tag-usage" flag="usage"><a href="javascript:;">
+								<!-- <a href="#usage"  name="usage" > -->使用方法</a></h2>
+						<h2 class="tags-hd tag-photo" flag="photos"><a href="javascript:;">
+								<!-- <a href="#photos"  name="photos" > -->商品实拍</a></h2>
+						<h2 class="tags-hd tag-comment" flag="discuss"><a href="javascript:;">
+								<!-- <a href="#discuss" name="discuss" > -->商品评论</a></h2>
+						<h2 class="tags-hd tag-consult" flag="ask"><a href="javascript:;">
+								<!-- <a href="#ask" name="ask" > -->商品咨询</a></h2>
+						<newnote>
+							<div class="right_section">
+								<h1 class="h1" onclick="javascript:document.getElementById('buytarget').submit();">￥119.00&nbsp;&nbsp;立即抢购</h1><img
+								 src="../img/detail/sell.png" app="b2c">
+							</div>
+						</newnote>
+					</div>
+					<div id="product_section"  >
+						<!-- custom s -->
+						<div id="product_parameter" class="product-section product-parameter mainpicture" data-sync-type="product_parameter">
+
+							<!-- <script>
+  function mao(id){
+    document.getElementById('id').scrollIntoView();
+  }
+</script> -->
+							<div id="parameter" style="height:50px;"></div>
+							<div class="product-attributes divpic">
+								<!-- custom s -->
+								<!-- <ul class="clearfix">
+    <li><span>品牌：</span><a href="/brand-87.html">L＇oreal/欧莱雅</a></li>
+    <li><span>所属分类：</span>日霜</li>
+        <li>商品编号：90187</li>
+      </ul> -->
+
+								<div class="product-params">
+									<div class="img" style="float:right;margin-right:100px;"><img class="midpic" src="../img/detail/bde25624241e4d8d67699e211d2bdddd7330dfe5.jpg"></div>
+									<table width="40%" height="220" style="margin-left:110px;">
+										<tbody>
+											<tr>
+												<!--         <td class="label"><div class="text-nowrap">货品编号：</div></td>
+        <td width="45%">90187</td>
+         -->
+												<td class="label">品牌：</td>
+												<td width="45%"><a href="/brand-87.html">L＇oreal/欧莱雅</a></td>
+											</tr>
+
+											<!--   -->
+											<tr>
+												<td class="label">
+													<div class="text-nowrap">商品名称：</div>
+												</td>
+												<td width="85%">LOR/欧莱雅 复颜密集抗皱紧致滋润日霜50ml </td>
+											</tr>
+
+											<!--        
+     <!--   -->
+											<tr>
+												<td class="label">
+													<div class="text-nowrap">功效：</div>
+												</td>
+												<td width="85%">抗皱</td>
+											</tr>
+
+											<!--        
+     <!--   -->
+											<tr>
+												<td class="label">
+													<div class="text-nowrap">规格：</div>
+												</td>
+												<td width="85%">50ml</td>
+											</tr>
+
+											<!--        
+     <!--   -->
+											<tr>
+												<td class="label">
+													<div class="text-nowrap">生产日期：</div>
+												</td>
+												<td width="85%">具体日期以收到的实物为准</td>
+											</tr>
+
+											<!--        
+     <!--   -->
+											<tr>
+												<td class="label">
+													<div class="text-nowrap">商品产地：</div>
+												</td>
+												<td width="85%">法国</td>
+											</tr>
+
+											<!--        
+     <!--   -->
+											<tr>
+												<td class="label">
+													<div class="text-nowrap">商品包装：</div>
+												</td>
+												<td width="85%">无盒无塑封</td>
+											</tr>
+
+											<!--        
+     <!--   -->
+											<tr>
+												<td class="label">
+													<div class="text-nowrap">适合人群：</div>
+												</td>
+												<td width="85%">所有人群</td>
+											</tr>
+
+											<!--        
+     <!--   -->
+											<tr>
+												<td class="label">
+													<div class="text-nowrap">特殊说明：</div>
+												</td>
+												<td width="85%">由于光线原因与实物有点色差介者慎拍</td>
+											</tr>
+
+											<!--   -->
+
+										</tbody>
+
+									</table>
+								</div>
+								<!-- <div class="img" ><img src="../img/detail/bde25624241e4d8d67699e211d2bdddd7330dfe5.jpg?1488878936#w"></div> -->
+								<!-- custom e -->
+							</div>
+							<!-- custom s -->
+							<div id="details" style="height:50px;"></div>
+							<div class="detail-content divpic">
+								<img src="../img/detail/details.png" app="b2c"> <br>
+								<img src="../img/detail/gzs.jpg" app="b2c">
+
+								<div>
+									<div style="text-align: center;">
+										<img src="../img/detail/e0d8d3b8d0e9937a125ff34a4dcd4d7b71a6d352.jpg"></div>
+									<div style="text-align: center;">
+										<img src="../img/detail/358b74e03ddca54387d20a7917f3d88021792c48.jpg"></div>
+								</div>
+							</div>
+							<div id="usage" style="height:50px;"></div>
+							<div class="detail-content divpic">
+								<img src="../img/detail/usage.png" app="b2c">
+								<div>
+									<div style="text-align: center;">
+										<img src="../img/detail/c2a9d33c11478dd0fee08242ddde3cb25cfe0962.png"></div>
+								</div>
+							</div>
+							<div id="photos" style="height:50px;"></div>
+							<div class="detail-content divpic">
+								<img src="../img/detail/photos.png" app="b2c">
+								<div>
+									<div style="text-align: center;"><br></div>
+								</div>
+							</div>
+							<!-- custom e -->
+
+							<!--  -->
+							<div id="discuss" style="height:50px;"></div>
+							<div  class="divpic">
+								<div id="product_comment_init" class="product-comment " data-sync-type="product_comment_init">
+									<div id="product_comment_init" class="mod" data-sync-type="product_comment_init">
+										<div class="mod-title">
+											<h2>商品评论</h2>
+										</div>
+										<div class="mod-content">
+											<div class="comment-list">
+												<table class="product-score">
+													<tbody>
+														<tr>
+															<td class="score-total">
+																<span class="label">商品评分</span>
+																<span class="values">
+																	<em class="stars stars-0">
+																		<span class="below"><i class="icon star">/</i><i class="icon star">/</i><i class="icon star">/</i><i
+																			 class="icon star">/</i><i class="icon star">/</i></span><span class="above"><i class="icon star">.</i><i
+																			 class="icon star">.</i><i class="icon star">.</i><i class="icon star">.</i><i class="icon star">.</i></span>
+																	</em>
+																	<b class="score">0</b>
+														
+																</span>
+															</td>
+															<td>
+																<ul class="scores-list">
+																	<li class="scores-item">
+																		<span class="label">综合评分</span>
+																		<em class="stars stars-0">
+																			<span class="below"><i class="icon star">/</i><i class="icon star">/</i><i class="icon star">/</i><i
+																				 class="icon star">/</i><i class="icon star">/</i></span><span class="above"><i class="icon star">.</i><i
+																				 class="icon star">.</i><i class="icon star">.</i><i class="icon star">.</i><i class="icon star">.</i></span>
+																		</em>
+																		<b class="score">0</b>
+																	</li>
+																</ul>
+															</td>
+															<td>
+
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<div class="title">
+													如果您对本商品有什么评论或经验,欢迎分享!</div>
+											</div>
+
+											<!-- custom s wct(加入效果) -->
+
+											<!-- custom e wct -->
+											<!--回复-->
+											<div class="post-reply action-post-reply hide">
+												<form action="/comment-toReply.html" method="post" class="action-code-form">
+													<input type="hidden" name="id">
+													<input type="hidden" name="product_id" value="">
+													<ul>
+														<li class="form-item">
+															<div class="form-act-wide no-permission">
+																<textarea class="action-filled-textarea" name="comment" id="" cols="30" rows="10" disabled="" vtype="required"
+																 data-caution="请填写回复内容，最多1000字" placeholder="请填写评论内容，最多1000字"></textarea>
+																<div class="mini-mask">请<a href="/passport-login.html">登录</a>后再回复,如果您不是会员请<a href="/passport-signup.html">注册</a>!</div>
+																<div class="clearfix">
+																	<div class="word-count"><i class="current">0</i>/<i class="word-limit">1000</i></div>
+																	<div class="sub-label"></div>
+																</div>
+															</div>
+														</li>
+														<li class="form-item">
+															<label for="reply_verifycode" class="form-label">验证码：</label>
+															<span class="form-act">
+																<input class="x-input verify-input" type="text" id="reply_verifycode" name="replyverifyCode" size="4"
+																 disabled="disabled" maxlength="4" autocomplete="off" vtype="required&amp;&amp;alphaint"> <img src="/detail.html"
+																 alt="验证码" title="点击更换验证码" class="verify-code auto-change-verify-handle hide"> <a href="/detail.html"
+																 class="verify-code auto-change-verify-handle lnklike">看不清楚?换一个</a> </span>
+														</li>
+														<li class="form-item form-item-last">
+															<span class="form-act"><button type="submit" class="btn btn-simple action-submit-reply" rel="_request"
+																 disabled="disabled"><span><span>提交回复</span></span></button><a href="javascript:void(0);" class="btn-close action-close-reply">取消回复</a></span>
+														</li>
+													</ul>
+												</form>
+											</div>
+
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+
+							<!--  -->
+							<div id="ask" style="height:50px;"></div>
+							<div class="divpic">
+								<div id="product_consult_init" class="product-consult " data-sync-type="product_consult_init">
+									<div class="mod">
+										<div class="mod-title">
+											<h2>商品咨询</h2>
+										</div>
+										<div class="consult-title">
+											<button type="button" class="btn btn-simple" onclick="$$('.product-tags .tag-consult').fireEvent('click');window.fireEvent('scroll');location.href='#post_consult';"><span><span>我要咨询</span></span></button>
+											<em></em>
+										</div>
+										<div class="consult-content" id="consult_content_init">
+											<!---->
+
+											<ul class="tabs clearfix switchable-triggerBox">
+												<li class="active"><a class="action-consult-trigger" href="/comment-ajax_type_ask-1896.html">全部咨询(0)</a></li>
+												<li><a class="action-consult-trigger" href="/comment-ajax_type_ask-1896-1.html">商品咨询(0)</a></li>
+												<li><a class="action-consult-trigger" href="/comment-ajax_type_ask-1896-2.html">配送咨询(0)</a></li>
+												<li><a class="action-consult-trigger" href="/comment-ajax_type_ask-1896-3.html">售后咨询(0)</a></li>
+											</ul>
+
+											<div class="action-content-list switchable-panel">
+												<div class="no-message">如果您对本商品有什么问题,请提问咨询!</div>
+												<ul class="consult-list">
+												</ul>
+
+											</div>
+											<div class="action-content-list switchable-panel" style="display:none;">
+											</div>
+											<div class="action-content-list switchable-panel" style="display:none;">
+											</div>
+											<div class="action-content-list switchable-panel" style="display:none;">
+											</div>
+
+
+										</div>
+
+										<!-- 咨询回复/评论回复 -->
+										<div class="post-answer action-post-reply hide">
+											<form action="/comment-toReply.html" method="post" class="action-code-form">
+												<input type="hidden" name="id">
+												<ul>
+													<li class="form-item">
+														<div class="form-act-wide">
+															<textarea class="action-filled-textarea" name="comment" id="" cols="30" rows="10" vtype="required"
+															 data-caution="请填写回复内容，最多1000字" placeholder="欢迎发表回复，最多1000字。"></textarea>
+															<div class="clearfix">
+																<div class="word-count"><i class="current">0</i>/<i class="word-limit">1000</i></div>
+																<div class="sub-label"></div>
+															</div>
+														</div>
+													</li>
+													<li class="form-item">
+														<label for="" class="form-label">联系方式：</label><span class="form-act"><input type="text" vtype="required"
+															 name="contact" id=""> <span class="sub-label">可以是电话、email、qq等</span></span>
+													</li>
+													<li class="form-item">
+														<label for="answer_verifycode" class="form-label">验证码：</label>
+														<span class="form-act">
+															<input class="x-input verify-input" type="text" id="anwser_verifycode" name="replyverifyCode" size="4"
+															 maxlength="4" autocomplete="off" vtype="required&amp;&amp;alphaint"> <img src="/detail.html"
+															 alt="验证码" title="点击更换验证码" class="verify-code auto-change-verify-handle hide"> <a href="/detail.html"
+															 class="verify-code auto-change-verify-handle lnklike">看不清楚?换一个</a> </span>
+													</li>
+													<li class="form-item">
+														<span class="form-act"><button type="submit" class="btn btn-simple action-submit-reply" rel="_request"><span><span>提交回复</span></span></button><a
+															 href="" class="btn-close action-close-reply">取消回复</a></span>
+													</li>
+												</ul>
+											</form>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div id="product_detail" class="product-section product-detail" data-sync-type="product_detail" style="display:none;">
+
+						</div>
+						<div id="product_usage" class="product-section product-usage" data-sync-type="product_usage" style="display:none;">
+
+						</div>
+						<div id="product_photo" class="product-section product-photo" data-sync-type="product_photo" style="display:none;">
+
+						</div>
+						<!-- custom e -->
+
+						<!--        -->
+
+						<div id="product_comment" class="product-section product-comment" data-sync-type="product_comment" style="display:none;">
+
+						</div>
+						<div id="product_consult" class="product-section product-consult" data-sync-type="product_consult" style="display:none;">
+
+						</div>
+						<div id="product_related" class="product-related" data-widget-type="Switchable" data-sync-type="product_related">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="maxwRight_go" class="maxwLeft" style="float:right;"></div>
+		</div>
+			</div>
+		</div>
+		
+		<div class="clear">
+		</div>
+		<div class="maxHelpw">
+			<div class="maxHelp">
+				<div class="maxLside">
+					<ul class="d-info">
+						<li class="kf"><span></span>在线客服</li>
+						<li class="Email"><span></span>kf@higoo.com</li>
+						<li class="phone"><span></span>4007-600-600<br>
+							<font size="1"><em>AM 08:00-PM 24:00</em></font>
+						</li>
+					</ul>
+					<div class="maxArticle ">
+						<div class="maxTitle clearfix">
+							<h3><a href="/index.html"><span>嗨购特色</span></a></h3>
+						</div>
+
+
+						<ul class="news-list maxContent clearfix">
+							<li class="article-index lv-1 item" node="21"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-heitonggoutese-61.html"
+								 title="正品保障">正品保障</a></li>
+							<li class="article-index lv-1 item" node="21"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-heitonggoutese-62.html"
+								 title="物流保障">物流保障</a></li>
+							<li class="article-index lv-1 item" node="21"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-heitonggoutese-63.html"
+								 title="绿色通关">绿色通关</a></li>
+							<li class="node-list lv-1 item" node="24"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-heitonggoutese_hufubaodian-l-24.html"
+								 title="护肤宝典">护肤宝典</a></li>
+						</ul>
+
+
+					</div>
+					<div class="maxArticle ">
+						<div class="maxTitle clearfix">
+							<h3><a href="http://www.higoo.com/article-help_compass-l-14.html"><span>购物指南</span></a></h3>
+						</div>
+
+
+						<ul class="news-list maxContent clearfix">
+							<li class="article-index lv-1 item" node="14"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-help_compass-42.html"
+								 title="购物流程">购物流程</a></li>
+							<li class="article-index lv-1 item" node="14"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-help_compass-64.html"
+								 title="常见问题">常见问题</a></li>
+							<li class="article-index lv-1 item" node="14"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-help_compass-65.html"
+								 title="通关关税">通关关税</a></li>
+						</ul>
+
+
+					</div>
+					<div class="maxArticle ">
+						<div class="maxTitle clearfix">
+							<h3><a href="http://www.higoo.com/article-payment-l-15.html"><span>支付/配送</span></a></h3>
+						</div>
+
+
+						<ul class="news-list maxContent clearfix">
+							<li class="article-index lv-1 item" node="15"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-payment-40.html"
+								 title="配送说明">配送说明</a></li>
+							<li class="article-index lv-1 item" node="15"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-payment-41.html"
+								 title="支付方式">支付方式</a></li>
+							<li class="article-index lv-1 item" node="15"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-payment-67.html"
+								 title="运费标准">运费标准</a></li>
+						</ul>
+
+
+					</div>
+					<div class="maxArticle ">
+						<div class="maxTitle clearfix">
+							<h3><a href="http://www.higoo.com/article-shouhousuwu-l-23.html"><span>售后服务</span></a></h3>
+						</div>
+
+
+						<ul class="news-list maxContent clearfix">
+							<li class="article-index lv-1 item" node="23"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-help_babyhelp-47.html"
+								 title="退货政策">退货政策</a></li>
+							<li class="article-index lv-1 item" node="23"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-shouhousuwu-66.html"
+								 title="退货流程">退货流程</a></li>
+							<li class="article-index lv-1 item" node="23"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-shouhousuwu-80.html"
+								 title="退款说明">退款说明</a></li>
+						</ul>
+
+
+					</div>
+					<div class="maxArticle ">
+						<div class="maxTitle clearfix">
+							<h3><a href="http://www.higoo.com/article-cominfo-l-6.html"><span>关于我们</span></a></h3>
+						</div>
+
+
+						<ul class="news-list maxContent clearfix">
+							<li class="article-index lv-1 item" node="6"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-cominfo-72.html"
+								 title="消费者告知书">消费者告知书</a></li>
+							<li class="article-index lv-1 item" node="6"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-cominfo-90.html"
+								 title="公司简介">公司简介</a></li>
+							<li class="article-index lv-1 item" node="6"><i class="icon-1">&nbsp;</i><a href="http://www.higoo.com/article-cominfo-91.html"
+								 title="联系我们">联系我们</a></li>
+						</ul>
+
+
+					</div>
+				</div>
+				<div class="maxRside">
+					<p>
+						<strong style="font-size:14px;">嗨购微信</strong></p>
+					<img src="http://www.higoo.com/public/images/43/13/21/ae85a1bc86fb8ba6e8490f9533a212005cb5cdbb.jpg?1425636031#h">
+					<p>扫一扫 品质在手</p>
+					<p>&nbsp;</p>
+				</div>
+			</div>
+		</div>
+		<div class="maxFCR">
+		</div>
+		<div class="fbody">
+			<div class="theme-footer">
+				<div style="text-align:center;line-height:22px;">2012 深圳市美丽控科技有限公司&nbsp;<strong>Higoo.com</strong> 保留一切权利。<br>&nbsp;
+					&nbsp; &nbsp;<span>河南保税物流中心入驻单位（D00002）、深圳前海湾保税区入驻单位（4403660117）</span></div>
+				<div style="text-align:center;line-height:22px;"><span>&nbsp;工作时间:</span> 9:00-18:00 &nbsp; &nbsp; &nbsp; &nbsp;
+					客服热线：4007-600-600&nbsp;</div>
+				<div style="text-align:center;line-height:22px;">
+					<div style="margin-top:5px;"><a href="http://szcert.ebs.org.cn/bf6c8111-164a-4b66-879d-3244ac71590d" type="url"
+						 target="_blank">
+							<img src="http://www.higoo.com/public/images/05/bb/18/6e5d1b576204e38e7898746162df45581079f4a6.jpg?1440142225#w"></a>&nbsp;
+						&nbsp;<a href="http://www.sznet110.gov.cn/netalarm/index.jsp" type="url" target="_blank">
+							<img src="http://www.higoo.com/public/images/a7/d1/d8/d4b3e46e2b524850b9ce847ec276147fc2a582c0.jpg?1425631922#w"></a>&nbsp;
+						&nbsp;
+						<img src="http://www.higoo.com/public/images/0d/f0/0a/cc100f7938d65e8903af0f9c2c7e9af0a664656c.jpg?1425632187#w"></div>
+					<div style="margin-top:5px;">ICP经营许可证:粤B2-20160253</div>
+
+				</div>
+			</div>
+			<div style="text-align: center;"><a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备18110695号</a></div>
+		</div>
+		<div>
+			<div class="higoo_cxf">
+				<a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzkzODA0ODU0NV8yNDIxMTNfNDAwNzYwMDYwMF8yXw">
+					<img src="../img/login/pic1.jpg" border="0" height="47" width="60">
+				</a>
+				<a href="cart.html">
+					<img src="../img/login/pic2.jpg" border="0" height="47" width="60">
+				</a>
+				<a href="javascriot:void(0);">
+					<img src="../img/login/pic3.jpg" border="0" height="47" width="60">
+				</a>
+				<a href="#top">
+					<img src="../img/login/pic4.jpg" border="0" height="47" width="60">
+				</a>
+			</div>
+
+
+		</div>
+
 	</body>
 </html>
